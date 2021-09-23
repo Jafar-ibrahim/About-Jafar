@@ -3,5 +3,24 @@
 nav ul li {
     display: inline-block;
 }
-    
+
+button#hamburgerBtn 
+{
+    display: none;
+}
+
+nav ul {
+    display: block;
+    padding: 0;
+    margin: 0;
+    }
+
+    footer .container{
+        display: flex;
+        }
+  
+  .container section{
+      flex-basis: 33.3%;
+  }
+
 }

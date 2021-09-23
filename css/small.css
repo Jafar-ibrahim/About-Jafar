@@ -1,6 +1,5 @@
 html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
 
-* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; margin: 0;}
 
 
 body {
@@ -18,8 +17,7 @@ footer {
     background-color:  #9CC3D5FF;
     width: 100%;
     height: auto;
-    display: inline-block;
-    
+    display: inline-block;  
     height: auto;
    
 }
@@ -40,14 +38,15 @@ header h1 {
 }
 
 nav a,
-footer a {
-    display: block;
+footer a
+{
     padding: .8rem .8rem; 
     text-align: center;
     text-decoration: none;
 }
 nav a{
     color: #eee; 
+    display: block;
 }
 footer a{
     color: black;
@@ -87,6 +86,7 @@ nav a:hover
 footer
 {
     padding-bottom: 4rem;
+    text-align: center;
 }
 .show,
 footer ul{
@@ -94,19 +94,23 @@ footer ul{
     padding: 0;
     margin: 0;
 }
+
+footer li {
+    list-style: none;
+    display: block;
+    font-weight: 500;
+}
+footer li ,
+footer p{
+    padding:1em ;
+}
+footer a:hover{
+    font-weight: 700;
+}
+
 .limited {
     max-width: 1140px; 
     margin: auto;
 }
 
-footer li {
-    list-style: none;
-}
-footer {
-    text-align: center;
-}
-.clearfix:after {
-    content: "";
-    display: table;
-    clear: both;
-  }
+  

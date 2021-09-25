@@ -25,5 +25,8 @@ nav ul {
   main section {
       flex-basis: 50%;
   }
+  .card {
+    flex-basis: 30%;
+}
 
 }

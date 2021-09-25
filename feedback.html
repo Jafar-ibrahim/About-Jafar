@@ -36,16 +36,38 @@
 
     
 </body>
-<main class="limited">
-    <h1>Generally</h1>
-    <br>
-    <br>
-    <img src="images/hello.jpg" alt="hello-img" class="center">
-    <p>Let me introduce myself :)</p> 
-    <p>I'm Jafar Ibrahim , a 19 years old university student who studies Computer Science at the Jordanian University - Jordan. </p>
-    <p>Since I was a kid , I loved spending time on my computer , trying to troubleshoot and solve any issue I faced , so I found it very exciting to be able to understand my computer and use it to achieve a lot of things.  </p>
-    <img src="images/Computer-Sciene.jpg" alt="computer science img" class="center">
-    <p>I hope that this simple website lets you know more a little bit <b>About Jafar.</b></p>
+<main class="limited"> 
+<div class="container">
+    <section>
+        <h1>Feedback</h1>
+        <p>Im always glad to hear from you !</p>
+        <p>Please fill this form correctly.</p>
+    </section>
+    <section>
+        <form action="" method="POST">
+
+            <label for="nameField">*Name:</label>
+            <input type="text" name="name" id="nameField" required>
+
+            <label for="emailField">Email:</label>
+            <input type="email" name="email" id="emailField">
+
+
+            <label for="subjectField">Subject:</label>
+            <input type="text" name="subject" id="subjectField">
+
+            <label for="feedbackField">*Feedback:</label>
+            <textarea name="feedback" id="feedbackField" required rows="4" cols="40"></textarea>
+            <button type="submit">Submit</button>
+        </section>
+
+    </div>
+
+
+</form>
+
+
+
 
 </main>
 

@@ -15,12 +15,15 @@ nav ul {
     margin: 0;
     }
 
-    footer .container{
+    .container{
         display: flex;
         }
   
-  .container section{
+  footer section{
       flex-basis: 33.3%;
+  }
+  main section {
+      flex-basis: 50%;
   }
 
 }

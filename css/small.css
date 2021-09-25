@@ -9,7 +9,7 @@ body {
     
 }
 main{
-    padding-top: 16px;
+    padding: 16px;
 }
 
 header,
@@ -22,6 +22,7 @@ footer {
    
 }
 header{padding: 0;}
+
 
 header img {
     float: left;
@@ -47,9 +48,11 @@ footer a
 nav a{
     color: #eee; 
     display: block;
+    font-size: 1.3rem;
 }
 footer a{
     color: black;
+    font-size: 1.3rem;
 }
 
 nav li {
@@ -87,6 +90,7 @@ footer
 {
     padding-bottom: 4rem;
     text-align: center;
+    margin-top: 1em;
 }
 .show,
 footer ul{
@@ -112,5 +116,94 @@ footer a:hover{
     max-width: 1140px; 
     margin: auto;
 }
-
+ 
+.center {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    float: none;
+    width:70% ;
   
+}
+  
+main p {
+    font-size:200%;
+    font-weight: 500;
+}
+b { font-weight: bold; }
+
+label{
+    display: block;
+    font-weight: bold;
+}
+
+label{
+    margin: 1rem 0;
+}
+
+main div {
+    float: left;
+    display: block;  
+}
+
+form {
+    float: right;
+}
+
+form button ,
+input,
+textarea{
+    display: block;
+    padding: .8rem;
+    margin:.8rem 0 ;
+}
+
+input,
+textarea{
+    width: 80%;
+    resize: none;
+}
+
+form button ,
+input,
+textarea{
+    border-radius: .5rem;
+    border-width: 3px;
+}
+
+input:invalid{
+    border-color: red;
+}
+
+input:valid{
+    border-color:rgb(19, 177, 19);
+}
+
+table ,
+th,
+td{
+    border-collapse: collapse;
+    border: 1px solid black;
+    font-size: 1.5rem;   
+}
+table{
+    margin: 1rem;
+    width: 85%;
+    overflow-wrap: normal;
+}
+th{
+    padding: .5rem;
+}
+td{
+    padding: .5rem;
+    max-width: px;
+}
+
+.tablemobile {
+    overflow-x: auto;
+    display: block;
+}
+tbody>tr>:nth-child(2),
+tbody>tr>:nth-child(1){ 
+    font-weight: bold;
+    }
